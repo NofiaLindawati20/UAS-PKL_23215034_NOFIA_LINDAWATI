@@ -1,11 +1,9 @@
-Nama :  Nofia Lindawati
-NIM : 23215034
-Prodi : Teknik Informatika / 6B
-
-# 📚 Project PKL - Sistem Ujian Online Berbasis Web & Android
+## Nama :  Nofia Lindawati
+## NIM : 23215034
+## Prodi : Teknik Informatika / 6B
+## Tempat PKL : SMK Assalafiyah Kota Tegal
 
 ## 📖 Deskripsi
-
 Project ini merupakan bagian dari **Praktik Kerja Lapangan (PKL)** dengan judul:
 
 > **Rancang Bangun Aplikasi Ujian Online Berbasis Android dengan Sistem Monitoring Peserta Menggunakan Computer Vision di SMK Assalafiyah Kota Tegal**
@@ -19,7 +17,28 @@ Project dikembangkan menggunakan:
 
 ---
 
-# 🚧 Status Pengembangan
+## 🛠️ Teknologi
+
+### Backend
+
+- Laravel 12
+- PHP 8.2
+- MySQL
+- Blade
+- Bootstrap
+- REST API
+
+### Mobile
+
+- Android Studio
+- Java/Kotlin
+- Retrofit
+- CameraX
+- ML Kit / Computer Vision
+
+---
+
+## 🚧 Status Pengembangan
 
 > **⚠️ Project masih dalam tahap pengembangan (Work In Progress).**
 
@@ -38,7 +57,7 @@ Beberapa fitur utama masih dalam proses implementasi dan pengujian.
 
 ---
 
-# 📂 Struktur Repository
+## 📂 Struktur Repository
 
 ```
 ProjectPKL-SistemUjian
@@ -53,7 +72,6 @@ ProjectPKL-SistemUjian
 │   └── ujian_db.sql
 │
 ├── dokumentasi/
-│   ├── Laporan PKL
 │   ├── ERD
 │   ├── Use Case Diagram
 │   ├── Activity Diagram
@@ -66,9 +84,9 @@ ProjectPKL-SistemUjian
 
 ---
 
-# 👥 Hak Akses Sistem
+## 👥 Hak Akses Sistem
 
-## 👨‍💼 Admin
+### 👨‍💼 Admin
 
 Admin memiliki hak akses penuh terhadap sistem.
 
@@ -84,7 +102,7 @@ Fitur utama:
 
 ---
 
-## 👨‍🏫 Guru
+### 👨‍🏫 Guru
 
 Guru bertugas mengelola proses akademik ujian.
 
@@ -100,7 +118,7 @@ Fitur:
 
 ---
 
-## 👀 Pengawas
+### 👀 Pengawas
 
 Pengawas bertanggung jawab selama pelaksanaan ujian.
 
@@ -115,7 +133,7 @@ Fitur:
 
 ---
 
-## 👨‍🎓 Siswa / Peserta
+### 👨‍🎓 Siswa / Peserta
 
 Peserta ujian dapat:
 
@@ -130,28 +148,7 @@ Peserta ujian dapat:
 
 ---
 
-# 🛠️ Teknologi
-
-## Backend
-
-- Laravel 12
-- PHP 8.2
-- MySQL
-- Blade
-- Bootstrap
-- REST API
-
-## Mobile
-
-- Android Studio
-- Java/Kotlin
-- Retrofit
-- CameraX
-- ML Kit / Computer Vision
-
----
-
-# 🚀 Roadmap
+## 🚀 Roadmap
 
 - [x] Perancangan UI
 - [x] Perancangan Database
@@ -171,12 +168,12 @@ Peserta ujian dapat:
 
 ---
 
-# ⚙️ Cara Menjalankan Project
+## ⚙️ Cara Menjalankan Project
 
-## Backend Laravel
+### Backend Laravel
 
 ```bash
-git clone https://github.com/NofiaLindawati20/ProjectPKL-RancangSistemUjianLaravel.git
+git clone https://github.com/NofiaLindawati20/UAS-PKL_23215034_NOFIA_LINDAWATI.git
 
 cd backend-laravel
 
@@ -189,11 +186,18 @@ php artisan key:generate
 php artisan migrate
 
 php artisan serve
+
+http://127.0.0.1:8000/                       (dashboard)
+http://127.0.0.1:8000/login                  (login)
+http://127.0.0.1:8000/admin                  (role admin)
+http://127.0.0.1:8000/guru                   (role guru)
+http://127.0.0.1:8000/pengawas/pilih-ruang   (role pengawas)
+http://127.0.0.1:8000/siswa                  (role siswa)
 ```
 
 ---
 
-# 📌 Catatan
+## 📌 Catatan
 
 Project ini dibuat sebagai media pembelajaran dan penyelesaian kegiatan Praktik Kerja Lapangan (PKL).
 
@@ -201,12 +205,12 @@ Seluruh fitur akan terus diperbarui hingga sistem selesai dikembangkan.
 
 ---
 
-# 👨‍💻 Developer
+## 👨‍💻 Developer
 
 **Nofia Lindawati**
 **23215034**
-Mahasiswa Teknik Informatika
-Universitas Harkat Negeri
+**Mahasiswa Teknik Informatika**
+**Universitas Harkat Negeri**
 
 ---
 
